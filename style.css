@@ -1,4 +1,4 @@
-/*base font and background for the entire page */
+/* Base font and background for the entire page */
 body {
     font-family: Arial, sans-serif;
     background: #f6f9fc;
@@ -19,4 +19,11 @@ form {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Put every labels in block */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
 }
