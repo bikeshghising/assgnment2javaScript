@@ -17,3 +17,11 @@ function Smoothie(size, base, ingredients, sweetness, customer) {
         return text;
     };
 }
+
+// Wait for form submit
+var form = document.getElementById("smoothie");
+
+form.addEventListener("submit", function (event) {
+    // Stop page from refreshing
+    event.preventDefault();
+});
