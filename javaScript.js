@@ -30,5 +30,14 @@ form.addEventListener("submit", function (event) {
     var base = document.getElementById("base").value;
     var sweetness = document.getElementById("sweetness").value;
     var customer = document.getElementById("customer").value;
+    
+    // Get ingredients
+    var ingredientBoxes = document.getElementsByClassName("ingredient");
+    var ingredients = [];
+    for (var i = 0; i < ingredientBoxes.length; i++) {
+        if (ingredientBoxes[i].checked) {
+            ingredients.push(ingredientBoxes[i].value);
+        }
+    }
 
 });
