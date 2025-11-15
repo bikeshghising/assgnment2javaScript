@@ -24,4 +24,11 @@ var form = document.getElementById("smoothie");
 form.addEventListener("submit", function (event) {
     // Stop page from refreshing
     event.preventDefault();
+
+    // Get simple form values
+    var size = document.getElementById("size").value;
+    var base = document.getElementById("base").value;
+    var sweetness = document.getElementById("sweetness").value;
+    var customer = document.getElementById("customer").value;
+
 });
