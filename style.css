@@ -41,3 +41,13 @@ select, input[type="text"], button {
     margin-left: 15px;
     font-weight: normal;
 }
+
+/* Output Section */
+#output {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #d3d1d5;
+    font-size: 18px;
+    border-radius: 8px;
+}
