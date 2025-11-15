@@ -27,3 +27,17 @@ label {
     margin-top: 15px;
     font-weight: bold;
 }
+
+/* Styling for form controls selects, text inputs, and buttons */
+select, input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* Special styling for checkbox labels within a group */
+.checkboxes label {
+    display: block;
+    margin-left: 15px;
+    font-weight: normal;
+}
