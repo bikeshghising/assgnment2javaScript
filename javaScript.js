@@ -30,7 +30,7 @@ form.addEventListener("submit", function (event) {
     var base = document.getElementById("base").value;
     var sweetness = document.getElementById("sweetness").value;
     var customer = document.getElementById("customer").value;
-    
+
     // Get ingredients
     var ingredientBoxes = document.getElementsByClassName("ingredient");
     var ingredients = [];
@@ -40,4 +40,10 @@ form.addEventListener("submit", function (event) {
         }
     }
 
+// Create a smoothie object
+    var smoothie = new Smoothie(size, base, ingredients, sweetness, customer);
+
+    // Show on the page
+    var output = document.getElementById("output");
+    output.innerHTML = smoothie.getDescription();
 });
